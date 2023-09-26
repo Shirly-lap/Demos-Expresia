@@ -1,0 +1,188 @@
+:root{
+    --primary: #008fe2;
+    --secondary: #2d529f;
+    --tertiary: #3aabdd;
+    --quaternary: #242424;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ 
+  }
+  
+body{
+    margin: 0;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 153px;
+}
+
+.headerTop{
+    background:#eeeeee84 !important;
+    color: #858585;
+    position: absolute;
+    margin: 0;
+    
+    width: 100%;
+    list-style: none;
+}
+
+.containerHeader {
+    margin:0 200px;
+    
+    
+}
+
+.containerHeader nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.containerHeader nav li{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    border-right:  solid 1px #83838360;
+}
+
+.header-body .header-body-Container{
+    display: flex;
+    justify-content: space-around ;
+    margin: 80px;
+    
+}
+.header-body .header-body-Container .colum-Logo{
+    display: flex;
+    align-items: center;
+}
+
+.header-body .header-body-Container .colum-Logo img{
+   width: 143px;
+}
+
+.header-body .header-body-Container .colum-Options nav ul{
+    list-style: none;
+    display: flex;
+    color: var(--primary);
+    font-weight: 500;
+   
+}
+
+.header-body .header-body-Container .colum-Options nav ul li{
+    padding:  15px;
+}
+.header-body .header-body-Container .colum-Options nav ul button{
+ background: var(--secondary);
+ border: none;
+ color:#fff;
+}
+
+
+.container .row {
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+
+.container .row .items1 {
+   background: var(--primary);
+   width: 279px;
+   height: 94px;
+   padding: 30px;
+}
+.container .row .items2 {
+    background: var(--tertiary);
+    width: 279px;
+    height: 94px;
+    padding: 30px;
+ }
+ .container .row .items3 {
+    background: var(--secondary);
+    width: 279px;
+    height: 94px;
+    padding: 30px;
+ }
+
+ .About{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+ }
+
+.AboutContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 760px;
+    text-align: justify;
+}
+
+.AboutContainer button{
+    width: 150px;
+    height: 50px;
+    color: #242424;
+    background-color: transparent;
+    background-image: none;
+    border-color: #242424;
+    font-weight: 700;
+}
+
+.imgAbout img{
+    width: 356px;
+}
+
+.departments{
+    background: #f7f7f7;
+    text-align: left;
+ 
+}
+
+.departmentsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+    padding: 50px;
+}
+
+.colum1 p{
+    color: #858585;
+}
+
+.colum2, .colum3, .colum4{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.colum2  h4, .colum3  h4, .colum4 h4{
+    color: var(--primary);
+}
+.colum4 button{
+    width: 150px;
+    height: 50px;
+    color: #242424;
+    background-color: transparent;
+    background-image: none;
+    border-color: #242424;
+    font-weight: 780;
+ 
+}
+
+
+
