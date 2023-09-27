@@ -1,0 +1,48 @@
+
+.welcom{
+    margin: 100px;
+    
+}
+.containerWelcom{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.wel-col-1, .wel-col-2{
+    width :50%;
+    padding: 0 12px;
+    
+}
+
+.wel-col-1 h2{
+    letter-spacing: -2px;
+    font-weight: 600!important;
+    font-size: 3.5rem;
+}
+
+.wel-col-2 p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #212529BF;
+}
+
+.component1 img{
+    position: absolute!important;
+    z-index: -1;
+}
+
+.text-cm-1{
+    color: #fff;
+    text-align: left;
+    width:50%;
+    display: flex;
+    align-items: center;
+    margin:60px;
+    padding: 20px;
+}
+
+.text-cm-1 h2{
+    margin-top: 30%;
+    font-size: 2.5rem;
+}
